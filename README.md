@@ -17,3 +17,5 @@ Fake Store API: A mock API used to fetch product data, enabling the display of p
 Web Browser: The platform can be run in any modern web browser that supports HTML, CSS, and JavaScript.
 ![Alt text](![Screenshot (12)](https://github.com/user-attachments/assets/987a2bdd-0193-4a93-99b2-0057195265be)
 )
+![Alt text](![Screenshot (11)](https://github.com/user-attachments/assets/07e15efe-c873-4439-848d-2c133abdd969)
+)
