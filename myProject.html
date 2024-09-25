@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Platform</title>
+    <link rel="stylesheet" href="aish.css">
+</head>
+<body>
+    <div class="header">
+        <h1>E-Commerce Platform</h1>
+    </div>
+    
+    <div class="container">
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Search for products..." oninput="searchProducts()" />
+        </div>
+
+        <h2>Products</h2>
+        <div id="products" class="products"></div>
+
+        <h2>Your Cart</h2>
+        <div class="cart" id="cartItems"></div>
+
+        <div class="price-details">
+            <p>Total MRP: ₹<span id="totalMRP">0</span></p>
+            <p>Coupon Discount: ₹<span id="discount">0</span></p>
+            <p>Shipping Charges: ₹20</p>
+            <p>Platform Fee: ₹10</p>
+            <h3>Total Amount: ₹<span id="totalAmount">0</span></h3>
+            <button id="placeOrder">Place Order</button>
+        </div>
+    </div>
+
+    <script src="aish.js"></script>
+</body>
+</html>
